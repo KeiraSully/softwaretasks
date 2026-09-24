@@ -1,4 +1,4 @@
-// Task 4.8: demo of bad approach to building strings iteratively
+D:\github\softwaretasks\tasks\task4_8\bad\src// Task 4.8: demo of bad approach to building strings iteratively
 
 import kotlin.system.exitProcess
 import kotlin.time.measureTime

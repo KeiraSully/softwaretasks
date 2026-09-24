@@ -4,5 +4,5 @@ fun main() {
     println(myNumber)
     myNumber = 20
 
-    println(myNumber)    
+    println(myNumber)
 }

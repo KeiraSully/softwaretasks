@@ -4,4 +4,18 @@ import kotlin.system.exitProcess
 
 fun main(args: Array<String>) {
     // Add your code here
+    if (args.size != 1) {
+        println("Error: exactly 1 argument required")
+        exitProcess(1)
+    }
+
+    val limit = args[0].toInt()
+
+    var sum = 0
+    for (n in 1..limit step 2) {
+        sum += n
+    }
+
+    println("Sum of odd numbers from 1 to $limit is: $sum")
+
 }
