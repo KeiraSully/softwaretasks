@@ -22,6 +22,11 @@ fun main(args: Array<String>) {
         }
     }
 
+    val result = lines
+        .filter { it.isNotBlank() }
+        .filter { it.length < 10 }
+        .map { it.lowercase() }
+
     println("Without sequence: $timeWithout")
     println("With sequence: $timeWith")
 }
