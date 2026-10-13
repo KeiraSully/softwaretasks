@@ -8,5 +8,23 @@ classDiagram
   note "Placeholder for a real class diagram"
 ```
 
+    Customer -- Order : places
+    Order -- OrderItem : includes
+    class Customer {
+        name
+        address
+        placeOrder()
+    }
+    class Order {
+        orderNumber
+        datePlaced
+        deliveryDate
+        checkStock()
+        takePayment()
+    }
+    class OrderItem {
+        name
+        description
+    }
 
 [mer]: https://mermaid.js.org/
